@@ -1,0 +1,143 @@
+header
+{
+    background-color: rgb(21, 212, 203);
+    border: 1px solid black;
+    text-align:left;
+    padding: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header p
+{
+    font-size:medium;
+    display: inline-block;
+    margin: 5px;
+    margin-left: 30px;
+}
+header img
+{
+    width: 5%;
+    margin-bottom: 0px;
+}
+header p a
+{
+    color:black;
+    font-weight: bold;
+}
+a:hover
+{
+    color:white;
+}
+.scroll-img {
+    background-image: url('Mines.webp');
+    background-size: cover;
+    padding: 1px;
+}
+#about
+{
+    margin-left: 50px;
+}
+#about h3
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+}
+#about h3 strong
+{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size:larger;
+  color: rgb(241, 109, 0);
+}
+#about p
+{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+}
+.boxes
+{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.boxes div
+{
+    border: 1px solid black;
+    margin-bottom: 1px;
+    width: 400px;
+    padding: 10px;
+    margin-left: 50px;
+}
+.boxes p,a
+{
+    margin-left: 10px;
+}
+.boxes p
+{
+    font-size:x-small;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.boxes a
+{
+    font-weight:bold ;
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#about,.boxes
+{
+    display:inline-block;
+}
+#box1
+{
+    background-color: rgba(255, 0, 0, 0.61);
+}
+#box2
+{
+    background-color: rgba(255, 94, 0, 0.699);
+}
+#box3
+{
+    background-color: rgba(255, 166, 0, 0.726);
+}
+#box4
+{
+    background-color: rgba(230, 47, 47, 0.788);
+}
+
+#box5
+{
+    background-color: rgba(247, 43, 43, 0.918);
+}
+#box6
+{
+    background-color: rgb(143, 32, 65);
+}
+.boxes a:hover
+{
+   color: white;
+}
+footer
+{
+    padding-top:7px;
+    background-color: rgba(124, 124, 124, 0.877);
+    margin-top: 50px;
+}
+footer .heading
+{
+    text-align: center;
+    font-size: larger;
+}
+.content
+{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+.social-media,.links
+{
+    display: inline-block;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.social-media p a,.links p a
+{
+    color: black;
+    text-decoration-line: none;
+}
